@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression - Suite" duration-ms="91980" started-at="2019-03-26T22:37:15Z" finished-at="2019-03-26T22:38:47Z">
+    <groups>
+    </groups>
+    <test name="Firefox Execution" duration-ms="91980" started-at="2019-03-26T22:37:15Z" finished-at="2019-03-26T22:38:47Z">
+      <class name="FeatureTest.LoginTest">
+        <test-method status="PASS" signature="launchDriver(java.lang.String)[pri:0, instance:FeatureTest.LoginTest@6b09bb57]" name="launchDriver" is-config="true" duration-ms="10510" started-at="2019-03-27T04:07:15Z" finished-at="2019-03-27T04:07:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:FeatureTest.LoginTest@6b09bb57]" name="beforeTest" is-config="true" duration-ms="2" started-at="2019-03-27T04:07:26Z" finished-at="2019-03-27T04:07:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:FeatureTest.LoginTest@6b09bb57]" name="login" duration-ms="2731" started-at="2019-03-27T04:07:26Z" finished-at="2019-03-27T04:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:FeatureTest.LoginTest@6b09bb57]" name="beforeTest" is-config="true" duration-ms="3" started-at="2019-03-27T04:07:29Z" finished-at="2019-03-27T04:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="createNetwork()[pri:1, instance:FeatureTest.LoginTest@6b09bb57]" name="createNetwork" duration-ms="11407" started-at="2019-03-27T04:07:29Z" finished-at="2019-03-27T04:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNetwork -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:FeatureTest.LoginTest@6b09bb57]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-27T04:07:40Z" finished-at="2019-03-27T04:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="networkNameError()[pri:2, instance:FeatureTest.LoginTest@6b09bb57]" name="networkNameError" duration-ms="5585" started-at="2019-03-27T04:07:40Z" finished-at="2019-03-27T04:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- networkNameError -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:FeatureTest.LoginTest@6b09bb57]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-27T04:07:46Z" finished-at="2019-03-27T04:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="ssidNameError()[pri:3, instance:FeatureTest.LoginTest@6b09bb57]" name="ssidNameError" duration-ms="5660" started-at="2019-03-27T04:07:46Z" finished-at="2019-03-27T04:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ssidNameError -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:FeatureTest.LoginTest@6b09bb57]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-27T04:07:51Z" finished-at="2019-03-27T04:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="blankIpAddrError()[pri:4, instance:FeatureTest.LoginTest@6b09bb57]" name="blankIpAddrError" duration-ms="5524" started-at="2019-03-27T04:07:51Z" finished-at="2019-03-27T04:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankIpAddrError -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:FeatureTest.LoginTest@6b09bb57]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-27T04:07:57Z" finished-at="2019-03-27T04:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="ipAddrInvalidError()[pri:5, instance:FeatureTest.LoginTest@6b09bb57]" name="ipAddrInvalidError" duration-ms="5561" started-at="2019-03-27T04:07:57Z" finished-at="2019-03-27T04:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ipAddrInvalidError -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:FeatureTest.LoginTest@6b09bb57]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-27T04:08:02Z" finished-at="2019-03-27T04:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="sharedSecretError()[pri:6, instance:FeatureTest.LoginTest@6b09bb57]" name="sharedSecretError" duration-ms="5341" started-at="2019-03-27T04:08:02Z" finished-at="2019-03-27T04:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sharedSecretError -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:FeatureTest.LoginTest@6b09bb57]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-27T04:08:08Z" finished-at="2019-03-27T04:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="confirmsharedSecretError()[pri:7, instance:FeatureTest.LoginTest@6b09bb57]" name="confirmsharedSecretError" duration-ms="14925" started-at="2019-03-27T04:08:08Z" finished-at="2019-03-27T04:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmsharedSecretError -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:FeatureTest.LoginTest@6b09bb57]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-27T04:08:23Z" finished-at="2019-03-27T04:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="applyNetworktoAP()[pri:8, instance:FeatureTest.LoginTest@6b09bb57]" name="applyNetworktoAP" duration-ms="4478" started-at="2019-03-27T04:08:23Z" finished-at="2019-03-27T04:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyNetworktoAP -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:FeatureTest.LoginTest@6b09bb57]" name="beforeTest" is-config="true" duration-ms="2" started-at="2019-03-27T04:08:27Z" finished-at="2019-03-27T04:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifyNetworkNameinAP()[pri:9, instance:FeatureTest.LoginTest@6b09bb57]" name="verifyNetworkNameinAP" duration-ms="6116" started-at="2019-03-27T04:08:27Z" finished-at="2019-03-27T04:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNetworkNameinAP -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:FeatureTest.LoginTest@6b09bb57]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-27T04:08:33Z" finished-at="2019-03-27T04:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="deleteNetwork()[pri:10, instance:FeatureTest.LoginTest@6b09bb57]" name="deleteNetwork" duration-ms="11624" started-at="2019-03-27T04:08:33Z" finished-at="2019-03-27T04:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNetwork -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:FeatureTest.LoginTest@6b09bb57]" name="AfterMethod" is-config="true" duration-ms="2453" started-at="2019-03-27T04:08:45Z" finished-at="2019-03-27T04:08:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- FeatureTest.LoginTest -->
+    </test> <!-- Firefox Execution -->
+  </suite> <!-- Regression - Suite -->
+</testng-results>
